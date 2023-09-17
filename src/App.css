@@ -1,0 +1,77 @@
+.app {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.heading {
+	margin: 100px 0 50px;
+	font-weight: 400;
+	color: rgb(50, 50, 50);
+}
+.list {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.list__item {
+	display: flex;
+	align-items: center;
+	gap: 16px;
+	list-style: none;
+}
+.section {
+	color: rgba(0, 0, 0, 0.75);
+	background-color: white;
+	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	width: 50%;
+	border-collapse: collapse;
+}
+.input {
+	border: 0;
+}
+.element {
+	width: 100%;
+	padding: 20px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.pointer {
+	cursor: pointer;
+}
+.radio {
+	height: 25px;
+	width: 25px;
+}
+.bottom {
+	display: flex;
+	flex-direction: row;
+	padding: 10px 20px;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+	font-size: 16px;
+}
+.sort {
+	margin: 0 auto;
+	display: flex;
+	gap: 8px;
+}
+.crossed {
+	position: relative;
+	color: gray;
+}
+.crossed::before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 50%;
+	border-top: 2px solid rgba(0, 0, 0, 0.8);
+}
+.selected {
+	font-weight: 600;
+	color: black;
+}
