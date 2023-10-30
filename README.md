@@ -1,5 +1,7 @@
-### Для запуска проекта npm i + npm run start.
+# Голиков Артем
 
-### Для запуска тестов npx cypress open => E2E testing => выбрать любой браузер и нажать кнопку => выбрать файл spec.cy.ts.
+## Проект: Simple "To do"
 
-### Ссылка: https://golikovgav.github.io/SimpleTodo/
+Приложение позволяющее добавлять, удалять, изменять статус и сортировать "To do" в рамках одной сессии. Данное приложение использует Redux Toolkit и покрыто тестами Cypress.
+
+Ссылка на сайт: https://golikovgav.github.io/SimpleTodo/
